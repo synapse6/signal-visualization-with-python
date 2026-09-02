@@ -1,6 +1,6 @@
-# Signals and Systems I: Signal Plotting
+# Signals and Linear System: Signal Plotting
 
-Coursework for Signals and Systems I: a Jupyter Notebook that derives and visualizes continuous-time signals and discrete-time sequences with NumPy, Matplotlib, and SciPy.
+Coursework for Signals and Linear Systems: a Jupyter Notebook that derives and visualizes continuous-time signals and discrete-time sequences with NumPy, Matplotlib, and SciPy.
 
 The notebook combines mathematical definitions, Python implementations, and plotted results so that each signal can be compared with its equation.
 
@@ -22,8 +22,8 @@ The notebook combines mathematical definitions, Python implementations, and plot
 
 ## Included Files
 
-- `signal_assignment_plots.ipynb` - derivations, implementations, and plots
-- `notebook_pdf.pdf` - PDF export of the assignment notebook
+- `signals_plots.ipynb` - derivations, implementations, and plots
+- `notebook.pdf` - PDF export of the assignment notebook
 - `requirements.txt` - Python and Jupyter dependencies
 
 ## Requirements
@@ -39,7 +39,7 @@ python -m pip install -r requirements.txt
 
 ## Running the Notebook
 
-1. Open `signal_assignment_plots.ipynb` in Jupyter Notebook, JupyterLab, or VS Code with the Jupyter extension.
+1. Open `signals_plots.ipynb` in Jupyter Notebook, JupyterLab, or VS Code with the Jupyter extension.
 2. Select a Python kernel with the dependencies installed.
 3. Run the cells from top to bottom to reproduce the derivations and plots.
 
@@ -48,19 +48,19 @@ The notebook is organized with Markdown headings so each signal definition and v
 To export a fresh PDF after making changes:
 
 ```bash
-jupyter nbconvert --to pdf signal_assignment_plots.ipynb
+jupyter nbconvert --to pdf signals_plot.ipynb
 ```
 
 ## Project Structure
 
 ```text
 .
-├── signal_assignment_plots.ipynb
-├── notebook_pdf.pdf
+├── signals_plot.ipynb
+├── notebook.pdf
 ├── requirements.txt
 └── README.md
 ```
 
 ## Academic Note
 
-This repository contains coursework for Signals and Systems I. The equations and plots are intended for study and demonstration.
+This repository contains coursework for Signals and Linear System. The equations and plots are intended for study and demonstration.
