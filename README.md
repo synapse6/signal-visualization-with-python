@@ -7,7 +7,7 @@ The notebook combines mathematical definitions, Python implementations, and plot
 ## Signals Covered
 
 - Sinusoidal signals: $x(t)=A\sin(\omega t)$ and $x(t)=A\cos(\omega t)$
-- Normalized sinc function: $\operatorname{sinc}(t)=\frac{\sin(\pi t)}{\pi t}$
+- Normalized sinc function: $\mathrm{sinc}(t)=\frac{\sin(\pi t)}{\pi t}$
 - Rectangular pulse
 - Unit step: $u(t)$
 - Shifted step combination: $u(t-2)-u(t-4)$
